@@ -1,7 +1,19 @@
 .App {
   text-align: center;
-}
+  padding: 10px;
+  /* direction: flex; */
 
+  /* min-height: 100vh; */
+  /* align-items: center; */
+
+  font-size: 20px;
+}
+.search-input {
+  width: 40%;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -20,7 +32,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(1px + 2vmin);
   color: white;
 }
 
